@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="botao">
+
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:shape">rectangle</item>
+        <item name="android:angle">90</item>
+
+
+    </style>
+
+    <style name="botao_numeros" parent="@style/botao">
+
+        <item name="android:background">@drawable/gradiente_numeros</item>
+
+    </style>
+
+    <style name="botao_operacoes" parent="@style/botao">
+
+        <item name="android:background">@drawable/gradiente_operacoes</item>
+
+    </style>
+
+
+
+</resources>
